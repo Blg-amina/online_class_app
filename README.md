@@ -1,16 +1,65 @@
-# online_class_app
+# 📚 Online Class App
 
-A new Flutter project.
+A simple **Flutter + Firebase** project for managing online classes.  
+This is an early version (UI + Firebase setup). More features will be added soon 🚀.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🛠️ Tech Stack
+- **Flutter** (Dart)
+- **Firebase** (Auth, Firestore, etc.)
+- **Material Design**
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## ⚡ Setup Instructions
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/your-username/online_class_app.git
+cd online_class_app
+
+2️⃣ Install dependencies
+bash
+Copy code
+flutter pub get
+
+3️⃣ Configure Firebase
+Make sure you have FlutterFire CLI installed.
+
+bash
+Copy code
+flutterfire configure --project=your-project-id
+This will create a lib/firebase_options.dart file (⚠️ not included in the repo for security reasons).
+If you clone this repo, you’ll need to re-run flutterfire configure.
+
+4️⃣ Run the app
+bash
+Copy code
+flutter run
+
+📸 Screenshots
+Coming soon...
+
+💡 Roadmap
+ Google Sign-In 🔑
+
+ Class scheduling 🗓️
+
+ Video call integration 🎥
+
+ Notifications 🔔
+
+ Teacher & student roles 👨‍🏫👩‍🎓
+
+⚠️ Security Note
+
+The file lib/firebase_options.dart contains private API keys and is not pushed to GitHub.
+If you fork/clone this repo, make sure to run flutterfire configure yourself.
+Never expose your Firebase keys in public repositories.
+
+📬 Contact
+Created by Belaggoun Amina 
+Feel free to connect and collaborate 🤝
+
+
