@@ -1,0 +1,4 @@
+# Force Dart recognition and LF endings 
+*.dart linguist-language=Dart 
+*.dart text eol=lf 
+build/** linguist-vendored 
